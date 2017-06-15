@@ -1,6 +1,11 @@
 # Price Formatter
 
-[TODO. There will be project description]
+You can use
+```bash
+python3 format_price.py 3245.000000
+3 245
+```
+to get formated price.
 
 # Project Goals
 

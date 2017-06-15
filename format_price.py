@@ -8,7 +8,7 @@ def get_args():
 
 
 def get_format_price(price):
-    return '42'
+    return '{:,.2f}'.format(float(price)).replace(',', ' ').replace('.00', '')
 
 if __name__ == '__main__':
     args = get_args()
