@@ -1,5 +1,16 @@
-def format_price(price):
-    pass
+import argparse
+
+
+def get_args():
+    parser = argparse.ArgumentParser(description='Format price')
+    parser.add_argument('price', type=str, help='input image name')
+    return parser.parse_args()
+
+
+def get_format_price(price):
+    return '42'
 
 if __name__ == '__main__':
-    pass
+    args = get_args()
+    price = args.price
+    print(get_format_price(price))
